@@ -1,0 +1,34 @@
+
+<!-- HOW TO MANIPULATE TAG IN REACT -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+<div id="root">
+
+</div>
+<script>
+
+    console.log(React)
+
+    var h1Tag =React.createElement('h1',null,'hello world');
+    console.log(h1Tag)
+    // console.log(ReactDOM)
+
+
+
+    ReactDOM.render(h1Tag,document.getElementById("root"))
+    
+
+</script>
+<div id="main">
+    
+
+</div>
+<script>
+    var username="Aniket"
+
+    document.getElementById("main").innerHTML=`<h1>${username}</h1>`
+
+
+</script>
